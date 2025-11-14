@@ -10,21 +10,32 @@ import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 
+import matplotlib.pyplot as plt
+import csv
+
 
 # -------------------------
 # 1. Configuration
 # -------------------------
 
-EXCEL_PATH = r"C:\Users\Guanli\OneDrive - National University of Singapore\BPS5231\Final_CNN\augmented_dataset.xlsx"
-IMG_DIR    = r"C:\Users\Guanli\OneDrive - National University of Singapore\BPS5231\Final_CNN\plan"
+EXCEL_PATH = "dataset/augmented_dataset.xlsx"
+IMG_DIR    = "dataset/plan"
 
-BATCH_SIZE = 16
-NUM_EPOCHS = 80
+output_model_name = "test"
+output_model_path = f"{output_model_name}/{output_model_name}.pth"
+save_dir = os.path.dirname(output_model_path)
+os.makedirs(save_dir, exist_ok=True)
+print(f"Output model will be saved to: {output_model_path}")
+
+BATCH_SIZE = 32
+NUM_EPOCHS = 10
 LEARNING_RATE = 1e-3
-VAL_SPLIT = 0.2
+VAL_SPLIT = 0.2 # auto split 20% for validation
 RANDOM_STATE = 42
 IMG_SIZE = 256  # resize from 512x512 to 256x256 for efficiency
 
+train_losses = []
+val_losses = []
 
 # -------------------------
 # 2. Dataset definition
@@ -53,9 +64,11 @@ class LightingDatasetNoID(Dataset):
         self.ceiling_cols = ceiling_cols
         self.seat_cols = seat_cols
 
+        # for normalization
         self.max_occupant = float(max_occupant)
         self.max_power = float(max_power)
 
+        # image transformations
         self.transform = transforms.Compose([
             transforms.Resize((IMG_SIZE, IMG_SIZE)),
             transforms.ToTensor(),  # [0,1]
@@ -87,7 +100,7 @@ class LightingDatasetNoID(Dataset):
 
         # ---- Targets (normalized) ----
         # Lighting levels 0..5 -> divide by 5
-        task_vals = row[self.task_cols].values.astype(np.float32) / 5.0
+        task_vals = row[self.task_cols].values.astype(np.float32) / 5.0 # actually for ceililng light is 0-8 but in dataset max is 5 so should be fine here
         ceiling_vals = row[self.ceiling_cols].values.astype(np.float32) / 5.0
 
         # Power normalized by max_power
@@ -114,6 +127,15 @@ class LightingCNNNoID(nn.Module):
         super(LightingCNNNoID, self).__init__()
 
         # Image branch: small CNN
+        #                                       ░██ ░██                                     
+        #                                       ░██ ░██                                     
+        #  ░███████  ░█████████████   ░██████   ░██ ░██     ░███████  ░████████  ░████████  
+        # ░██        ░██   ░██   ░██       ░██  ░██ ░██    ░██    ░██ ░██    ░██ ░██    ░██ 
+        #  ░███████  ░██   ░██   ░██  ░███████  ░██ ░██    ░██        ░██    ░██ ░██    ░██ 
+        #        ░██ ░██   ░██   ░██ ░██   ░██  ░██ ░██    ░██    ░██ ░██    ░██ ░██    ░██ 
+        #  ░███████  ░██   ░██   ░██  ░█████░██ ░██ ░██     ░███████  ░██    ░██ ░██    ░██ 
+                                                                                                                                                        
+        # how to cnn is also a part to train
         self.img_conv = nn.Sequential(
             nn.Conv2d(3, 16, kernel_size=3, padding=1),
             nn.BatchNorm2d(16),
@@ -225,7 +247,7 @@ def train_model_noid():
     )
 
     train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=0)
-    val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
+    val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=0)
 
     # ----- Model, loss, optimizer -----
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -239,6 +261,7 @@ def train_model_noid():
     optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-5)
 
     # ----- Training loop -----
+    # forward, calculate loss, backward, optimize
     for epoch in range(1, NUM_EPOCHS + 1):
         model.train()
         train_loss_sum = 0.0
@@ -282,6 +305,9 @@ def train_model_noid():
 
         print(f"Epoch [{epoch:03d}/{NUM_EPOCHS}]  "
               f"Train Loss: {avg_train_loss:.6f}  |  Val Loss: {avg_val_loss:.6f}")
+        
+        train_losses.append(avg_train_loss)
+        val_losses.append(avg_val_loss)
 
     # ----- Save model and scaling factors -----
     save_dict = {
@@ -293,8 +319,36 @@ def train_model_noid():
         "seat_cols": seat_cols,
         "use_id_in_input": False
     }
-    torch.save(save_dict, "lighting_cnn_model_noid.pth")
-    print("Model saved to lighting_cnn_model_noid.pth")
+    torch.save(save_dict, output_model_path)
+    print(f"Model saved to {output_model_path}")
+
+    # Save/Visualize training and validation losses
+    # ====== Save Loss Curve ======
+    plt.figure(figsize=(8,5))
+    plt.plot(train_losses, label="Train Loss")
+    plt.plot(val_losses, label="Validation Loss")
+    plt.xlabel("Epoch")
+    plt.ylabel("MSE Loss")
+    plt.legend()
+    plt.grid(True)
+    plt.title("Training and Validation Loss Curve")
+    plt.tight_layout()
+
+    loss_curve_path = os.path.join(save_dir, "loss_curve.png")
+    plt.savefig(loss_curve_path)
+    plt.close()
+
+    print(f"Loss curve saved to {loss_curve_path}")
+
+    # ====== Save raw loss data ======
+    csv_path = os.path.join(save_dir, "loss_values.csv")
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["epoch", "train_loss", "val_loss"])
+        for i, (t, v) in enumerate(zip(train_losses, val_losses)):
+            writer.writerow([i+1, t, v])
+
+    print(f"Loss data saved to {csv_path}")
 
 
 if __name__ == "__main__":

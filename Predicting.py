@@ -11,10 +11,10 @@ import numpy as np
 # ============================================================
 
 # 1) Path to the trained model (from your retraining)
-MODEL_PATH = r"lighting_cnn_model_noid.pth"
+MODEL_PATH = "test.pth"
 
 # 2) Path to the BMP plan you want to use as input
-IMG_PATH = r"C:\Users\Guanli\OneDrive - National University of Singapore\BPS5231\Final_CNN\plan\64.bmp"
+IMG_PATH = "dataset/plan/64.bmp"
 
 # 3) Overall occupancy (how many people are in the room)
 OCCUPANT_COUNT = 10  # example
@@ -51,6 +51,7 @@ class LightingCNNNoID(nn.Module):
         super(LightingCNNNoID, self).__init__()
 
         # Image branch
+        # cnn, bn, relu, pool layers
         self.img_conv = nn.Sequential(
             nn.Conv2d(3, 16, kernel_size=3, padding=1),
             nn.BatchNorm2d(16),
@@ -79,6 +80,7 @@ class LightingCNNNoID(nn.Module):
         )
 
         # Fusion MLP
+        # input: img features + tabular features into MLP 28 dim output
         fusion_input_dim = img_feature_dim + 64
         self.fusion_net = nn.Sequential(
             nn.Linear(fusion_input_dim, 256),
