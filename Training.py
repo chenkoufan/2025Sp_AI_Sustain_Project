@@ -21,14 +21,14 @@ import csv
 EXCEL_PATH = "dataset/augmented_dataset.xlsx"
 IMG_DIR    = "dataset/plan"
 
-output_model_name = "test"
+output_model_name = "32_300"
 output_model_path = f"{output_model_name}/{output_model_name}.pth"
 save_dir = os.path.dirname(output_model_path)
 os.makedirs(save_dir, exist_ok=True)
 print(f"Output model will be saved to: {output_model_path}")
 
 BATCH_SIZE = 32
-NUM_EPOCHS = 10
+NUM_EPOCHS = 300
 LEARNING_RATE = 1e-3
 VAL_SPLIT = 0.2 # auto split 20% for validation
 RANDOM_STATE = 42
