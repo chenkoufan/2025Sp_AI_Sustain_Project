@@ -11,7 +11,7 @@ import pandas as pd
 # ==============================
 
 MODEL_PATH = r"32_300/32_300.pth"                  # 训练好的模型
-CSV_PATH   = r"simulated_seats_test.csv"       # 你的占用情况 CSV
+CSV_PATH   = r"simulated_seats.csv"       # 你的占用情况 CSV
 IMG_DIR    = r"test/plan"                 # bmp 平面图所在文件夹
 OUTPUT_CSV = r"simulated_seats_with_control.csv"  # 输出文件名
 
@@ -234,6 +234,35 @@ def main():
         # 写回这行的 ceiling_light*
         for j in range(3):
             df.at[idx, ceiling_light_cols[j]] = int(ceilings_rounded[j])
+
+        # ===== NEW: 计算 optimized_power =====
+        task_sum = np.sum(tasks_rounded)
+        ceiling_sum = np.sum(ceilings_rounded)
+
+        optimized_power = task_sum * 1.5 + ceiling_sum * 4.4 * 3
+        df.at[idx, "optimized_power"] = optimized_power
+
+        # ===== 2 计算 previous_power（基线策略） =====
+        # 从这一行读取座位占用情况（0/1），按 seat_cols 顺序
+        seat_vals = row[seat_cols].values.astype(float)
+
+        # occupied_seats = 有人的座位数量
+        occupied_seats = int(np.sum(seat_vals))
+
+        # 区域划分：0-7, 8-15, 16-23
+        region1_has_occ = np.sum(seat_vals[0:8])   > 0  # seat_00..seat_07
+        region2_has_occ = np.sum(seat_vals[8:16])  > 0  # seat_08..seat_15
+        region3_has_occ = np.sum(seat_vals[16:24]) > 0  # seat_16..seat_23
+
+        ceiling_on_count = (
+            int(region1_has_occ) +
+            int(region2_has_occ) +
+            int(region3_has_occ)
+        )
+
+        # previous_power = 每个有人座位4.5W + 每个亮着的ceiling 66W
+        previous_power = occupied_seats * 4.5 + ceiling_on_count * 66.0
+        df.at[idx, "previous_power"] = float(previous_power)
 
         if (idx + 1) % 50 == 0:
             print(f"Processed {idx+1} rows...")
