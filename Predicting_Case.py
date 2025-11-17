@@ -242,7 +242,7 @@ def main():
         optimized_power = task_sum * 1.5 + ceiling_sum * 4.4 * 3
         df.at[idx, "optimized_power"] = optimized_power
 
-        # ===== 2 计算 previous_power（基线策略） =====
+        # ===== 2 计算 simple combined（基线策略1） =====
         # 从这一行读取座位占用情况（0/1），按 seat_cols 顺序
         seat_vals = row[seat_cols].values.astype(float)
 
@@ -262,6 +262,28 @@ def main():
 
         # previous_power = 每个有人座位4.5W + 每个亮着的ceiling 66W
         previous_power = occupied_seats * 4.5 + ceiling_on_count * 66.0
+        df.at[idx, "simple_combined"] = float(previous_power)
+
+        # ===== 2 计算 simple combined（基线策略1） =====
+        # 从这一行读取座位占用情况（0/1），按 seat_cols 顺序
+        seat_vals = row[seat_cols].values.astype(float)
+
+        # occupied_seats = 有人的座位数量
+        occupied_seats = int(np.sum(seat_vals))
+
+        # 区域划分：0-7, 8-15, 16-23
+        region1_has_occ = np.sum(seat_vals[0:8])   > 0  # seat_00..seat_07
+        region2_has_occ = np.sum(seat_vals[8:16])  > 0  # seat_08..seat_15
+        region3_has_occ = np.sum(seat_vals[16:24]) > 0  # seat_16..seat_23
+
+        ceiling_on_count = (
+            int(region1_has_occ) +
+            int(region2_has_occ) +
+            int(region3_has_occ)
+        )
+
+        # previous_power = 每个有人座位4.5W + 每个亮着的ceiling 66W
+        previous_power = ceiling_on_count * 158.4
         df.at[idx, "previous_power"] = float(previous_power)
 
         if (idx + 1) % 50 == 0:
