@@ -1,0 +1,10 @@
+{
+  "input_strategy_rows": 675,
+  "matched_cases": 225,
+  "cases_per_weather": 75,
+  "excluded_rows": 0,
+  "power_unit": "W",
+  "uncertainty_display": "full min\u2013max across five designed layouts where applicable",
+  "inference": "descriptive; no p values or population confidence intervals",
+  "comfort_verification": "not possible from the supplied workbook columns"
+}

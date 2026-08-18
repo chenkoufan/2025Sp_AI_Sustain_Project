@@ -1,0 +1,10 @@
+weather,strategy,mean_within_density_range_W,max_within_density_range_W,occupancy_at_max_range
+Clear,Zonal PIR ceiling-only,44.880000,79.200000,1
+Clear,Rule-based hybrid,12.500000,19.500000,10
+Clear,Optimized hybrid,14.600000,21.000000,10
+Overcast,Zonal PIR ceiling-only,59.840000,171.600000,2
+Overcast,Rule-based hybrid,38.900000,76.500000,2
+Overcast,Optimized hybrid,24.800000,76.500000,2
+Night,Zonal PIR ceiling-only,60.720000,171.600000,2
+Night,Rule-based hybrid,35.200000,105.600000,2
+Night,Optimized hybrid,31.420000,85.200000,3

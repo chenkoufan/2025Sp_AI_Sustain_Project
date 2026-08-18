@@ -1,0 +1,7 @@
+weather,baseline,scenario_count,baseline_mean_W,optimized_mean_W,absolute_reduction_W,relative_reduction_pct,optimized_lower_count,equal_count,optimized_higher_count
+Clear,Zonal PIR ceiling-only,75,75.504000,17.440000,58.064000,76.901886,70,3,2
+Clear,Rule-based hybrid,75,16.340000,17.440000,-1.100000,-6.731946,7,28,40
+Overcast,Zonal PIR ceiling-only,75,244.464000,93.012000,151.452000,61.952680,72,2,1
+Overcast,Rule-based hybrid,75,120.028000,93.012000,27.016000,22.508081,60,12,3
+Night,Zonal PIR ceiling-only,75,443.520000,236.100000,207.420000,46.766775,75,0,0
+Night,Rule-based hybrid,75,314.784000,236.100000,78.684000,24.996188,69,6,0

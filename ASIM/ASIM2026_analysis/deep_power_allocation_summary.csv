@@ -1,0 +1,10 @@
+weather,strategy,mean_ceiling_power_W,mean_task_power_W,mean_total_power_W
+Clear,Optimized hybrid,0.0,17.44,17.44
+Clear,Rule-based hybrid,0.0,16.34,16.34
+Clear,Zonal PIR ceiling-only,75.504,0.0,75.504
+Night,Optimized hybrid,194.48,41.62,236.1
+Night,Rule-based hybrid,278.78399999999993,36.0,314.784
+Night,Zonal PIR ceiling-only,443.52,0.0,443.52
+Overcast,Optimized hybrid,61.071999999999996,31.94,93.012
+Overcast,Rule-based hybrid,86.76799999999999,33.26,120.028
+Overcast,Zonal PIR ceiling-only,244.464,0.0,244.464

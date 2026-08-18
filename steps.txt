@@ -1,0 +1,8 @@
+1 先model里还原了beehub,然后重新布置了顶灯,查询灯的数据,桌面照度规范等基础条件
+2 模拟,并用galapagos来得到各种对应座位下的最佳顶灯+桌面灯配合方式,并导出为dataset/dataset.xlsx
+3 augment↑,并用gh得到对应座位时的plan,然后split为training and testing
+4 train得到model,再通过测试testing dataset,回gh验证模型准确率
+5 根据历史数据得到的人的总数变化,来对应地模拟生成人流变化趋势,生成模拟的人来去excel表 (用agent方式思考)
+6 把生成的人的map用model来predict
+7 数据分析和比较
+8 可以最后综合一下,也许结果是人少就直接rule-based了,人多再ml

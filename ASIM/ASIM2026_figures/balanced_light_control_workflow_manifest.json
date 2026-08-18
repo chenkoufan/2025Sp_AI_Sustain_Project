@@ -1,0 +1,15 @@
+{
+  "title": "Balanced Light Control Framework workflow",
+  "purpose": "ASIM 2026 conference manuscript methodology diagram",
+  "source": "Local manuscript methods and user-specified control rules",
+  "layout": "Left-to-right five-stage flow with GA feedback loop",
+  "final_width_mm": 174,
+  "final_height_mm": 72,
+  "formats": [
+    "PNG 600 dpi",
+    "PDF vector",
+    "SVG editable text"
+  ],
+  "external_services": "none",
+  "alt_text": "A five-stage workflow moves from sky condition, occupancy count, and seat distribution through an office model and three lighting-control strategies to illuminance, comfort, and power evaluation, followed by matched comparisons. A dashed feedback arrow links evaluation to the GA-derived strategy to show penalty-based evolution."
+}

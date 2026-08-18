@@ -1,0 +1,451 @@
+weather,occupancy_count,layout_index,seat_list,active_zones,baseline,baseline_power_W,optimized_power_W,absolute_saving_W,outcome
+Clear,1,1,0,1,Zonal PIR ceiling-only,79.19999999999999,6.0,73.19999999999999,GA lower
+Clear,1,2,3,1,Zonal PIR ceiling-only,79.19999999999999,7.5,71.69999999999999,GA lower
+Clear,1,3,8,1,Zonal PIR ceiling-only,13.2,1.5,11.7,GA lower
+Clear,1,4,20,1,Zonal PIR ceiling-only,0.0,0.0,0.0,Equal
+Clear,1,5,23,1,Zonal PIR ceiling-only,0.0,0.0,0.0,Equal
+Clear,2,1,2;17,2,Zonal PIR ceiling-only,79.19999999999999,10.5,68.69999999999999,GA lower
+Clear,2,2,3;23,2,Zonal PIR ceiling-only,79.19999999999999,7.5,71.69999999999999,GA lower
+Clear,2,3,4;7,1,Zonal PIR ceiling-only,26.4,3.0,23.4,GA lower
+Clear,2,4,13;18,2,Zonal PIR ceiling-only,0.0,3.0,-3.0,GA higher
+Clear,2,5,21;23,1,Zonal PIR ceiling-only,0.0,0.0,0.0,Equal
+Clear,3,1,0;1;2,1,Zonal PIR ceiling-only,79.19999999999999,19.5,59.69999999999999,GA lower
+Clear,3,2,0;17;19,2,Zonal PIR ceiling-only,79.19999999999999,13.5,65.69999999999999,GA lower
+Clear,3,3,6;7;16,2,Zonal PIR ceiling-only,26.4,7.5,18.9,GA lower
+Clear,3,4,6;20;22,2,Zonal PIR ceiling-only,26.4,1.5,24.9,GA lower
+Clear,3,5,13;17;22,2,Zonal PIR ceiling-only,0.0,3.0,-3.0,GA higher
+Clear,4,1,0;5;13;22,3,Zonal PIR ceiling-only,79.19999999999999,7.5,71.69999999999999,GA lower
+Clear,4,2,2;3;10;12,2,Zonal PIR ceiling-only,92.4,16.5,75.9,GA lower
+Clear,4,3,3;8;11;19,3,Zonal PIR ceiling-only,105.6,13.5,92.1,GA lower
+Clear,4,4,4;6;8;10,2,Zonal PIR ceiling-only,39.6,4.5,35.1,GA lower
+Clear,4,5,7;8;14;18,3,Zonal PIR ceiling-only,39.6,6.0,33.6,GA lower
+Clear,5,1,1;2;7;9;21,3,Zonal PIR ceiling-only,92.4,19.5,72.9,GA lower
+Clear,5,2,1;3;14;17;23,3,Zonal PIR ceiling-only,79.19999999999999,16.5,62.69999999999999,GA lower
+Clear,5,3,2;3;7;8;12,2,Zonal PIR ceiling-only,92.4,19.5,72.9,GA lower
+Clear,5,4,2;9;12;17;20,3,Zonal PIR ceiling-only,92.4,10.5,81.9,GA lower
+Clear,5,5,6;11;18;19;22,3,Zonal PIR ceiling-only,52.8,7.5,45.3,GA lower
+Clear,6,1,1;2;7;8;10;12,2,Zonal PIR ceiling-only,92.4,21.0,71.4,GA lower
+Clear,6,2,1;7;10;17;20;22,3,Zonal PIR ceiling-only,92.4,13.5,78.9,GA lower
+Clear,6,3,2;5;6;8;20;21,3,Zonal PIR ceiling-only,92.4,13.5,78.9,GA lower
+Clear,6,4,5;7;8;12;14;17,3,Zonal PIR ceiling-only,39.6,7.5,32.1,GA lower
+Clear,6,5,5;11;14;19;20;21,3,Zonal PIR ceiling-only,39.6,4.5,35.1,GA lower
+Clear,7,1,1;2;3;4;15;16;23,3,Zonal PIR ceiling-only,79.19999999999999,24.0,55.19999999999999,GA lower
+Clear,7,2,2;5;12;13;19;20;21,3,Zonal PIR ceiling-only,79.19999999999999,10.5,68.69999999999999,GA lower
+Clear,7,3,4;7;8;17;19;22;23,3,Zonal PIR ceiling-only,39.6,10.5,29.1,GA lower
+Clear,7,4,6;10;12;14;15;18;23,3,Zonal PIR ceiling-only,39.6,6.0,33.6,GA lower
+Clear,7,5,7;11;12;13;18;22;23,3,Zonal PIR ceiling-only,52.8,9.0,43.8,GA lower
+Clear,8,1,0;3;5;8;14;16;19;23,3,Zonal PIR ceiling-only,92.4,24.0,68.4,GA lower
+Clear,8,2,0;3;8;12;14;16;17;19,3,Zonal PIR ceiling-only,92.4,24.0,68.4,GA lower
+Clear,8,3,0;5;10;15;16;17;19;20,3,Zonal PIR ceiling-only,92.4,15.0,77.4,GA lower
+Clear,8,4,3;8;9;10;13;17;20;21,3,Zonal PIR ceiling-only,92.4,13.5,78.9,GA lower
+Clear,8,5,4;6;9;11;16;19;20;23,3,Zonal PIR ceiling-only,52.8,12.0,40.8,GA lower
+Clear,9,1,0;1;2;7;10;18;20;21;22,3,Zonal PIR ceiling-only,92.4,24.0,68.4,GA lower
+Clear,9,2,0;2;3;7;10;16;17;21;22,3,Zonal PIR ceiling-only,92.4,28.5,63.900000000000006,GA lower
+Clear,9,3,1;2;3;7;9;11;15;17;20,3,Zonal PIR ceiling-only,105.6,31.5,74.1,GA lower
+Clear,9,4,2;4;5;8;13;15;17;21;22,3,Zonal PIR ceiling-only,92.4,15.0,77.4,GA lower
+Clear,9,5,6;9;11;12;14;16;17;22;23,3,Zonal PIR ceiling-only,52.8,13.5,39.3,GA lower
+Clear,10,1,0;1;2;3;7;14;16;17;21;23,3,Zonal PIR ceiling-only,79.19999999999999,34.5,44.69999999999999,GA lower
+Clear,10,2,1;3;10;12;15;19;20;21;22;23,3,Zonal PIR ceiling-only,92.4,19.5,72.9,GA lower
+Clear,10,3,3;4;5;6;8;13;14;17;20;23,3,Zonal PIR ceiling-only,92.4,16.5,75.9,GA lower
+Clear,10,4,3;6;7;11;13;15;16;18;20;22,3,Zonal PIR ceiling-only,105.6,19.5,86.1,GA lower
+Clear,10,5,4;6;7;8;12;15;16;17;20;22,3,Zonal PIR ceiling-only,39.6,13.5,26.1,GA lower
+Clear,11,1,0;1;4;5;6;12;13;15;19;20;22,3,Zonal PIR ceiling-only,79.19999999999999,19.5,59.69999999999999,GA lower
+Clear,11,2,0;1;5;8;10;15;16;17;19;21;23,3,Zonal PIR ceiling-only,92.4,25.5,66.9,GA lower
+Clear,11,3,0;4;6;9;13;14;15;16;17;20;22,3,Zonal PIR ceiling-only,92.4,18.0,74.4,GA lower
+Clear,11,4,1;2;3;8;10;13;16;17;18;19;22,3,Zonal PIR ceiling-only,92.4,31.5,60.900000000000006,GA lower
+Clear,11,5,2;3;5;7;9;12;14;18;19;21;23,3,Zonal PIR ceiling-only,92.4,22.5,69.9,GA lower
+Clear,12,1,0;1;2;3;5;6;8;14;17;18;19;20,3,Zonal PIR ceiling-only,92.4,39.0,53.400000000000006,GA lower
+Clear,12,2,0;5;7;8;9;10;11;13;14;16;17;21,3,Zonal PIR ceiling-only,105.6,21.0,84.6,GA lower
+Clear,12,3,1;4;7;8;9;10;12;14;16;19;22;23,3,Zonal PIR ceiling-only,92.4,19.5,72.9,GA lower
+Clear,12,4,1;6;8;10;15;16;17;19;20;21;22;23,3,Zonal PIR ceiling-only,92.4,18.0,74.4,GA lower
+Clear,12,5,3;4;8;9;16;17;18;19;20;21;22;23,3,Zonal PIR ceiling-only,92.4,22.5,69.9,GA lower
+Clear,13,1,0;1;2;4;5;11;13;16;17;18;21;22;23,3,Zonal PIR ceiling-only,105.6,30.0,75.6,GA lower
+Clear,13,2,0;1;4;5;6;7;9;11;14;15;18;22;23,3,Zonal PIR ceiling-only,105.6,25.5,80.1,GA lower
+Clear,13,3,0;1;4;5;8;10;12;13;14;18;21;22;23,3,Zonal PIR ceiling-only,92.4,21.0,71.4,GA lower
+Clear,13,4,0;3;5;6;7;8;10;13;18;19;21;22;23,3,Zonal PIR ceiling-only,92.4,28.5,63.900000000000006,GA lower
+Clear,13,5,1;2;3;4;6;7;11;12;13;14;17;19;22,3,Zonal PIR ceiling-only,105.6,33.0,72.6,GA lower
+Clear,14,1,0;1;3;4;6;9;10;11;13;15;16;19;20;22,3,Zonal PIR ceiling-only,105.6,33.0,72.6,GA lower
+Clear,14,2,0;2;3;4;8;9;10;11;12;13;14;16;17;20,3,Zonal PIR ceiling-only,105.6,33.0,72.6,GA lower
+Clear,14,3,0;2;5;6;9;10;11;13;14;16;17;20;22;23,3,Zonal PIR ceiling-only,105.6,25.5,80.1,GA lower
+Clear,14,4,0;3;4;5;6;9;11;12;15;17;18;19;21;23,3,Zonal PIR ceiling-only,105.6,30.0,75.6,GA lower
+Clear,14,5,3;4;6;9;10;12;13;16;17;18;19;20;22;23,3,Zonal PIR ceiling-only,92.4,25.5,66.9,GA lower
+Clear,15,1,0;1;2;3;4;6;7;9;10;13;15;18;19;20;21,3,Zonal PIR ceiling-only,92.4,40.5,51.900000000000006,GA lower
+Clear,15,2,0;1;3;4;6;7;12;13;14;15;18;20;21;22;23,3,Zonal PIR ceiling-only,79.19999999999999,28.5,50.69999999999999,GA lower
+Clear,15,3,1;2;3;5;7;8;10;11;12;14;16;17;18;20;22,3,Zonal PIR ceiling-only,105.6,37.5,68.1,GA lower
+Clear,15,4,1;4;5;6;8;9;10;14;15;16;19;20;21;22;23,3,Zonal PIR ceiling-only,92.4,21.0,71.4,GA lower
+Clear,15,5,3;4;5;7;10;11;12;13;14;16;17;18;19;21;23,3,Zonal PIR ceiling-only,105.6,28.5,77.1,GA lower
+Night,1,1,0,1,Zonal PIR ceiling-only,171.6,110.1,61.5,GA lower
+Night,1,2,3,1,Zonal PIR ceiling-only,171.6,110.1,61.5,GA lower
+Night,1,3,8,1,Zonal PIR ceiling-only,171.6,110.1,61.5,GA lower
+Night,1,4,20,1,Zonal PIR ceiling-only,171.6,110.1,61.5,GA lower
+Night,1,5,23,1,Zonal PIR ceiling-only,171.6,110.1,61.5,GA lower
+Night,2,1,2;17,2,Zonal PIR ceiling-only,290.4,192.3,98.09999999999997,GA lower
+Night,2,2,3;23,2,Zonal PIR ceiling-only,343.2,196.8,146.39999999999998,GA lower
+Night,2,3,4;7,1,Zonal PIR ceiling-only,171.6,114.6,57.0,GA lower
+Night,2,4,13;18,2,Zonal PIR ceiling-only,290.4,141.0,149.39999999999998,GA lower
+Night,2,5,21;23,1,Zonal PIR ceiling-only,171.6,113.1,58.5,GA lower
+Night,3,1,0;1;2,1,Zonal PIR ceiling-only,171.6,116.1,55.5,GA lower
+Night,3,2,0;17;19,2,Zonal PIR ceiling-only,343.2,201.3,141.89999999999998,GA lower
+Night,3,3,6;7;16,2,Zonal PIR ceiling-only,343.2,198.3,144.89999999999998,GA lower
+Night,3,4,6;20;22,2,Zonal PIR ceiling-only,316.79999999999995,198.3,118.49999999999994,GA lower
+Night,3,5,13;17;22,2,Zonal PIR ceiling-only,290.4,145.5,144.89999999999998,GA lower
+Night,4,1,0;5;13;22,3,Zonal PIR ceiling-only,462.0,217.5,244.5,GA lower
+Night,4,2,2;3;10;12,2,Zonal PIR ceiling-only,343.2,192.6,150.6,GA lower
+Night,4,3,3;8;11;19,3,Zonal PIR ceiling-only,514.8,230.7,284.09999999999997,GA lower
+Night,4,4,4;6;8;10,2,Zonal PIR ceiling-only,343.2,163.2,180.0,GA lower
+Night,4,5,7;8;14;18,3,Zonal PIR ceiling-only,488.4,219.0,269.4,GA lower
+Night,5,1,1;2;7;9;21,3,Zonal PIR ceiling-only,462.0,235.2,226.8,GA lower
+Night,5,2,1;3;14;17;23,3,Zonal PIR ceiling-only,488.4,249.9,238.49999999999997,GA lower
+Night,5,3,2;3;7;8;12,2,Zonal PIR ceiling-only,343.2,200.1,143.1,GA lower
+Night,5,4,2;9;12;17;20,3,Zonal PIR ceiling-only,488.4,236.7,251.7,GA lower
+Night,5,5,6;11;18;19;22,3,Zonal PIR ceiling-only,488.4,223.5,264.9,GA lower
+Night,6,1,1;2;7;8;10;12,2,Zonal PIR ceiling-only,343.2,203.1,140.1,GA lower
+Night,6,2,1;7;10;17;20;22,3,Zonal PIR ceiling-only,488.4,241.2,247.2,GA lower
+Night,6,3,2;5;6;8;20;21,3,Zonal PIR ceiling-only,488.4,241.2,247.2,GA lower
+Night,6,4,5;7;8;12;14;17,3,Zonal PIR ceiling-only,488.4,229.5,258.9,GA lower
+Night,6,5,5;11;14;19;20;21,3,Zonal PIR ceiling-only,488.4,229.5,258.9,GA lower
+Night,7,1,1;2;3;4;15;16;23,3,Zonal PIR ceiling-only,514.8,250.2,264.59999999999997,GA lower
+Night,7,2,2;5;12;13;19;20;21,3,Zonal PIR ceiling-only,488.4,234.0,254.39999999999998,GA lower
+Night,7,3,4;7;8;17;19;22;23,3,Zonal PIR ceiling-only,514.8,237.0,277.79999999999995,GA lower
+Night,7,4,6;10;12;14;15;18;23,3,Zonal PIR ceiling-only,488.4,234.0,254.39999999999998,GA lower
+Night,7,5,7;11;12;13;18;22;23,3,Zonal PIR ceiling-only,514.8,235.5,279.29999999999995,GA lower
+Night,8,1,0;3;5;8;14;16;19;23,3,Zonal PIR ceiling-only,514.8,256.2,258.59999999999997,GA lower
+Night,8,2,0;3;8;12;14;16;17;19,3,Zonal PIR ceiling-only,514.8,243.0,271.79999999999995,GA lower
+Night,8,3,0;5;10;15;16;17;19;20,3,Zonal PIR ceiling-only,514.8,254.7,260.09999999999997,GA lower
+Night,8,4,3;8;9;10;13;17;20;21,3,Zonal PIR ceiling-only,514.8,251.7,263.09999999999997,GA lower
+Night,8,5,4;6;9;11;16;19;20;23,3,Zonal PIR ceiling-only,514.8,243.0,271.79999999999995,GA lower
+Night,9,1,0;1;2;7;10;18;20;21;22,3,Zonal PIR ceiling-only,488.4,256.2,232.2,GA lower
+Night,9,2,0;2;3;7;10;16;17;21;22,3,Zonal PIR ceiling-only,488.4,257.7,230.7,GA lower
+Night,9,3,1;2;3;7;9;11;15;17;20,3,Zonal PIR ceiling-only,514.8,259.2,255.59999999999997,GA lower
+Night,9,4,2;4;5;8;13;15;17;21;22,3,Zonal PIR ceiling-only,488.4,243.0,245.39999999999998,GA lower
+Night,9,5,6;9;11;12;14;16;17;22;23,3,Zonal PIR ceiling-only,488.4,257.7,230.7,GA lower
+Night,10,1,0;1;2;3;7;14;16;17;21;23,3,Zonal PIR ceiling-only,488.4,263.7,224.7,GA lower
+Night,10,2,1;3;10;12;15;19;20;21;22;23,3,Zonal PIR ceiling-only,514.8,278.4,236.39999999999998,GA lower
+Night,10,3,3;4;5;6;8;13;14;17;20;23,3,Zonal PIR ceiling-only,514.8,276.9,237.89999999999998,GA lower
+Night,10,4,3;6;7;11;13;15;16;18;20;22,3,Zonal PIR ceiling-only,514.8,278.4,236.39999999999998,GA lower
+Night,10,5,4;6;7;8;12;15;16;17;20;22,3,Zonal PIR ceiling-only,514.8,253.5,261.29999999999995,GA lower
+Night,11,1,0;1;4;5;6;12;13;15;19;20;22,3,Zonal PIR ceiling-only,514.8,269.7,245.09999999999997,GA lower
+Night,11,2,0;1;5;8;10;15;16;17;19;21;23,3,Zonal PIR ceiling-only,514.8,269.7,245.09999999999997,GA lower
+Night,11,3,0;4;6;9;13;14;15;16;17;20;22,3,Zonal PIR ceiling-only,514.8,268.2,246.59999999999997,GA lower
+Night,11,4,1;2;3;8;10;13;16;17;18;19;22,3,Zonal PIR ceiling-only,514.8,279.9,234.89999999999998,GA lower
+Night,11,5,2;3;5;7;9;12;14;18;19;21;23,3,Zonal PIR ceiling-only,514.8,281.4,233.39999999999998,GA lower
+Night,12,1,0;1;2;3;5;6;8;14;17;18;19;20,3,Zonal PIR ceiling-only,514.8,285.9,228.89999999999998,GA lower
+Night,12,2,0;5;7;8;9;10;11;13;14;16;17;21,3,Zonal PIR ceiling-only,514.8,272.7,242.09999999999997,GA lower
+Night,12,3,1;4;7;8;9;10;12;14;16;19;22;23,3,Zonal PIR ceiling-only,514.8,275.7,239.09999999999997,GA lower
+Night,12,4,1;6;8;10;15;16;17;19;20;21;22;23,3,Zonal PIR ceiling-only,488.4,274.2,214.2,GA lower
+Night,12,5,3;4;8;9;16;17;18;19;20;21;22;23,3,Zonal PIR ceiling-only,514.8,288.9,225.89999999999998,GA lower
+Night,13,1,0;1;2;4;5;11;13;16;17;18;21;22;23,3,Zonal PIR ceiling-only,514.8,277.2,237.59999999999997,GA lower
+Night,13,2,0;1;4;5;6;7;9;11;14;15;18;22;23,3,Zonal PIR ceiling-only,514.8,278.7,236.09999999999997,GA lower
+Night,13,3,0;1;4;5;8;10;12;13;14;18;21;22;23,3,Zonal PIR ceiling-only,514.8,277.2,237.59999999999997,GA lower
+Night,13,4,0;3;5;6;7;8;10;13;18;19;21;22;23,3,Zonal PIR ceiling-only,514.8,291.9,222.89999999999998,GA lower
+Night,13,5,1;2;3;4;6;7;11;12;13;14;17;19;22,3,Zonal PIR ceiling-only,514.8,291.9,222.89999999999998,GA lower
+Night,14,1,0;1;3;4;6;9;10;11;13;15;16;19;20;22,3,Zonal PIR ceiling-only,514.8,299.4,215.39999999999998,GA lower
+Night,14,2,0;2;3;4;8;9;10;11;12;13;14;16;17;20,3,Zonal PIR ceiling-only,514.8,299.4,215.39999999999998,GA lower
+Night,14,3,0;2;5;6;9;10;11;13;14;16;17;20;22;23,3,Zonal PIR ceiling-only,514.8,281.7,233.09999999999997,GA lower
+Night,14,4,0;3;4;5;6;9;11;12;15;17;18;19;21;23,3,Zonal PIR ceiling-only,514.8,299.4,215.39999999999998,GA lower
+Night,14,5,3;4;6;9;10;12;13;16;17;18;19;20;22;23,3,Zonal PIR ceiling-only,514.8,297.9,216.89999999999998,GA lower
+Night,15,1,0;1;2;3;4;6;7;9;10;13;15;18;19;20;21,3,Zonal PIR ceiling-only,514.8,302.4,212.39999999999998,GA lower
+Night,15,2,0;1;3;4;6;7;12;13;14;15;18;20;21;22;23,3,Zonal PIR ceiling-only,514.8,303.9,210.89999999999998,GA lower
+Night,15,3,1;2;3;5;7;8;10;11;12;14;16;17;18;20;22,3,Zonal PIR ceiling-only,514.8,302.4,212.39999999999998,GA lower
+Night,15,4,1;4;5;6;8;9;10;14;15;16;19;20;21;22;23,3,Zonal PIR ceiling-only,514.8,289.2,225.59999999999997,GA lower
+Night,15,5,3;4;5;7;10;11;12;13;14;16;17;18;19;21;23,3,Zonal PIR ceiling-only,514.8,303.9,210.89999999999998,GA lower
+Overcast,1,1,0,1,Zonal PIR ceiling-only,132.0,72.0,60.0,GA lower
+Overcast,1,2,3,1,Zonal PIR ceiling-only,132.0,72.0,60.0,GA lower
+Overcast,1,3,8,1,Zonal PIR ceiling-only,105.6,44.1,61.49999999999999,GA lower
+Overcast,1,4,20,1,Zonal PIR ceiling-only,0.0,0.0,0.0,Equal
+Overcast,1,5,23,1,Zonal PIR ceiling-only,0.0,6.0,-6.0,GA higher
+Overcast,2,1,2;17,2,Zonal PIR ceiling-only,171.6,76.5,95.1,GA lower
+Overcast,2,2,3;23,2,Zonal PIR ceiling-only,132.0,72.0,60.0,GA lower
+Overcast,2,3,4;7,1,Zonal PIR ceiling-only,118.8,61.8,57.0,GA lower
+Overcast,2,4,13;18,2,Zonal PIR ceiling-only,105.6,9.0,96.6,GA lower
+Overcast,2,5,21;23,1,Zonal PIR ceiling-only,0.0,0.0,0.0,Equal
+Overcast,3,1,0;1;2,1,Zonal PIR ceiling-only,132.0,84.0,48.0,GA lower
+Overcast,3,2,0;17;19,2,Zonal PIR ceiling-only,198.0,81.0,117.0,GA lower
+Overcast,3,3,6;7;16,2,Zonal PIR ceiling-only,184.8,76.5,108.30000000000001,GA lower
+Overcast,3,4,6;20;22,2,Zonal PIR ceiling-only,105.6,69.0,36.599999999999994,GA lower
+Overcast,3,5,13;17;22,2,Zonal PIR ceiling-only,105.6,9.0,96.6,GA lower
+Overcast,4,1,0;5;13;22,3,Zonal PIR ceiling-only,184.8,79.5,105.30000000000001,GA lower
+Overcast,4,2,2;3;10;12,2,Zonal PIR ceiling-only,224.4,88.5,135.9,GA lower
+Overcast,4,3,3;8;11;19,3,Zonal PIR ceiling-only,303.6,88.5,215.10000000000002,GA lower
+Overcast,4,4,4;6;8;10,2,Zonal PIR ceiling-only,211.2,84.0,127.19999999999999,GA lower
+Overcast,4,5,7;8;14;18,3,Zonal PIR ceiling-only,277.2,84.0,193.2,GA lower
+Overcast,5,1,1;2;7;9;21,3,Zonal PIR ceiling-only,211.2,87.0,124.19999999999999,GA lower
+Overcast,5,2,1;3;14;17;23,3,Zonal PIR ceiling-only,237.6,87.0,150.6,GA lower
+Overcast,5,3,2;3;7;8;12,2,Zonal PIR ceiling-only,237.6,91.5,146.1,GA lower
+Overcast,5,4,2;9;12;17;20,3,Zonal PIR ceiling-only,264.0,87.0,177.0,GA lower
+Overcast,5,5,6;11;18;19;22,3,Zonal PIR ceiling-only,277.2,85.5,191.7,GA lower
+Overcast,6,1,1;2;7;8;10;12,2,Zonal PIR ceiling-only,224.4,97.5,126.9,GA lower
+Overcast,6,2,1;7;10;17;20;22,3,Zonal PIR ceiling-only,264.0,85.5,178.5,GA lower
+Overcast,6,3,2;5;6;8;20;21,3,Zonal PIR ceiling-only,224.4,84.0,140.4,GA lower
+Overcast,6,4,5;7;8;12;14;17,3,Zonal PIR ceiling-only,277.2,93.0,184.2,GA lower
+Overcast,6,5,5;11;14;19;20;21,3,Zonal PIR ceiling-only,277.2,85.5,191.7,GA lower
+Overcast,7,1,1;2;3;4;15;16;23,3,Zonal PIR ceiling-only,264.0,96.0,168.0,GA lower
+Overcast,7,2,2;5;12;13;19;20;21,3,Zonal PIR ceiling-only,250.8,88.5,162.3,GA lower
+Overcast,7,3,4;7;8;17;19;22;23,3,Zonal PIR ceiling-only,290.4,88.5,201.89999999999998,GA lower
+Overcast,7,4,6;10;12;14;15;18;23,3,Zonal PIR ceiling-only,250.8,93.0,157.8,GA lower
+Overcast,7,5,7;11;12;13;18;22;23,3,Zonal PIR ceiling-only,277.2,91.5,185.7,GA lower
+Overcast,8,1,0;3;5;8;14;16;19;23,3,Zonal PIR ceiling-only,303.6,100.5,203.10000000000002,GA lower
+Overcast,8,2,0;3;8;12;14;16;17;19,3,Zonal PIR ceiling-only,303.6,106.5,197.10000000000002,GA lower
+Overcast,8,3,0;5;10;15;16;17;19;20,3,Zonal PIR ceiling-only,290.4,99.0,191.39999999999998,GA lower
+Overcast,8,4,3;8;9;10;13;17;20;21,3,Zonal PIR ceiling-only,290.4,99.0,191.39999999999998,GA lower
+Overcast,8,5,4;6;9;11;16;19;20;23,3,Zonal PIR ceiling-only,277.2,94.5,182.7,GA lower
+Overcast,9,1,0;1;2;7;10;18;20;21;22,3,Zonal PIR ceiling-only,277.2,99.0,178.2,GA lower
+Overcast,9,2,0;2;3;7;10;16;17;21;22,3,Zonal PIR ceiling-only,290.4,103.5,186.89999999999998,GA lower
+Overcast,9,3,1;2;3;7;9;11;15;17;20,3,Zonal PIR ceiling-only,290.4,111.0,179.39999999999998,GA lower
+Overcast,9,4,2;4;5;8;13;15;17;21;22,3,Zonal PIR ceiling-only,277.2,97.5,179.7,GA lower
+Overcast,9,5,6;9;11;12;14;16;17;22;23,3,Zonal PIR ceiling-only,277.2,100.5,176.7,GA lower
+Overcast,10,1,0;1;2;3;7;14;16;17;21;23,3,Zonal PIR ceiling-only,250.8,108.0,142.8,GA lower
+Overcast,10,2,1;3;10;12;15;19;20;21;22;23,3,Zonal PIR ceiling-only,290.4,97.5,192.89999999999998,GA lower
+Overcast,10,3,3;4;5;6;8;13;14;17;20;23,3,Zonal PIR ceiling-only,290.4,100.5,189.89999999999998,GA lower
+Overcast,10,4,3;6;7;11;13;15;16;18;20;22,3,Zonal PIR ceiling-only,303.6,105.0,198.60000000000002,GA lower
+Overcast,10,5,4;6;7;8;12;15;16;17;20;22,3,Zonal PIR ceiling-only,290.4,100.5,189.89999999999998,GA lower
+Overcast,11,1,0;1;4;5;6;12;13;15;19;20;22,3,Zonal PIR ceiling-only,264.0,105.0,159.0,GA lower
+Overcast,11,2,0;1;5;8;10;15;16;17;19;21;23,3,Zonal PIR ceiling-only,303.6,111.0,192.60000000000002,GA lower
+Overcast,11,3,0;4;6;9;13;14;15;16;17;20;22,3,Zonal PIR ceiling-only,290.4,106.5,183.89999999999998,GA lower
+Overcast,11,4,1;2;3;8;10;13;16;17;18;19;22,3,Zonal PIR ceiling-only,303.6,118.5,185.10000000000002,GA lower
+Overcast,11,5,2;3;5;7;9;12;14;18;19;21;23,3,Zonal PIR ceiling-only,290.4,109.5,180.89999999999998,GA lower
+Overcast,12,1,0;1;2;3;5;6;8;14;17;18;19;20,3,Zonal PIR ceiling-only,303.6,120.0,183.60000000000002,GA lower
+Overcast,12,2,0;5;7;8;9;10;11;13;14;16;17;21,3,Zonal PIR ceiling-only,303.6,123.0,180.60000000000002,GA lower
+Overcast,12,3,1;4;7;8;9;10;12;14;16;19;22;23,3,Zonal PIR ceiling-only,290.4,115.5,174.89999999999998,GA lower
+Overcast,12,4,1;6;8;10;15;16;17;19;20;21;22;23,3,Zonal PIR ceiling-only,290.4,105.0,185.39999999999998,GA lower
+Overcast,12,5,3;4;8;9;16;17;18;19;20;21;22;23,3,Zonal PIR ceiling-only,303.6,105.0,198.60000000000002,GA lower
+Overcast,13,1,0;1;2;4;5;11;13;16;17;18;21;22;23,3,Zonal PIR ceiling-only,303.6,115.5,188.10000000000002,GA lower
+Overcast,13,2,0;1;4;5;6;7;9;11;14;15;18;22;23,3,Zonal PIR ceiling-only,290.4,118.5,171.89999999999998,GA lower
+Overcast,13,3,0;1;4;5;8;10;12;13;14;18;21;22;23,3,Zonal PIR ceiling-only,290.4,114.0,176.39999999999998,GA lower
+Overcast,13,4,0;3;5;6;7;8;10;13;18;19;21;22;23,3,Zonal PIR ceiling-only,303.6,114.0,189.60000000000002,GA lower
+Overcast,13,5,1;2;3;4;6;7;11;12;13;14;17;19;22,3,Zonal PIR ceiling-only,303.6,124.5,179.10000000000002,GA lower
+Overcast,14,1,0;1;3;4;6;9;10;11;13;15;16;19;20;22,3,Zonal PIR ceiling-only,303.6,127.5,176.10000000000002,GA lower
+Overcast,14,2,0;2;3;4;8;9;10;11;12;13;14;16;17;20,3,Zonal PIR ceiling-only,303.6,135.0,168.60000000000002,GA lower
+Overcast,14,3,0;2;5;6;9;10;11;13;14;16;17;20;22;23,3,Zonal PIR ceiling-only,303.6,121.5,182.10000000000002,GA lower
+Overcast,14,4,0;3;4;5;6;9;11;12;15;17;18;19;21;23,3,Zonal PIR ceiling-only,303.6,123.0,180.60000000000002,GA lower
+Overcast,14,5,3;4;6;9;10;12;13;16;17;18;19;20;22;23,3,Zonal PIR ceiling-only,290.4,117.0,173.39999999999998,GA lower
+Overcast,15,1,0;1;2;3;4;6;7;9;10;13;15;18;19;20;21,3,Zonal PIR ceiling-only,290.4,130.5,159.89999999999998,GA lower
+Overcast,15,2,0;1;3;4;6;7;12;13;14;15;18;20;21;22;23,3,Zonal PIR ceiling-only,250.8,117.0,133.8,GA lower
+Overcast,15,3,1;2;3;5;7;8;10;11;12;14;16;17;18;20;22,3,Zonal PIR ceiling-only,303.6,133.5,170.10000000000002,GA lower
+Overcast,15,4,1;4;5;6;8;9;10;14;15;16;19;20;21;22;23,3,Zonal PIR ceiling-only,290.4,117.0,173.39999999999998,GA lower
+Overcast,15,5,3;4;5;7;10;11;12;13;14;16;17;18;19;21;23,3,Zonal PIR ceiling-only,303.6,127.5,176.10000000000002,GA lower
+Clear,1,1,0,1,Rule-based hybrid,6.0,6.0,0.0,Equal
+Clear,1,2,3,1,Rule-based hybrid,6.0,7.5,-1.5,GA higher
+Clear,1,3,8,1,Rule-based hybrid,1.5,1.5,0.0,Equal
+Clear,1,4,20,1,Rule-based hybrid,0.0,0.0,0.0,Equal
+Clear,1,5,23,1,Rule-based hybrid,0.0,0.0,0.0,Equal
+Clear,2,1,2;17,2,Rule-based hybrid,9.0,10.5,-1.5,GA higher
+Clear,2,2,3;23,2,Rule-based hybrid,6.0,7.5,-1.5,GA higher
+Clear,2,3,4;7,1,Rule-based hybrid,3.0,3.0,0.0,Equal
+Clear,2,4,13;18,2,Rule-based hybrid,3.0,3.0,0.0,Equal
+Clear,2,5,21;23,1,Rule-based hybrid,0.0,0.0,0.0,Equal
+Clear,3,1,0;1;2,1,Rule-based hybrid,18.0,19.5,-1.5,GA higher
+Clear,3,2,0;17;19,2,Rule-based hybrid,12.0,13.5,-1.5,GA higher
+Clear,3,3,6;7;16,2,Rule-based hybrid,6.0,7.5,-1.5,GA higher
+Clear,3,4,6;20;22,2,Rule-based hybrid,1.5,1.5,0.0,Equal
+Clear,3,5,13;17;22,2,Rule-based hybrid,3.0,3.0,0.0,Equal
+Clear,4,1,0;5;13;22,3,Rule-based hybrid,7.5,7.5,0.0,Equal
+Clear,4,2,2;3;10;12,2,Rule-based hybrid,13.5,16.5,-3.0,GA higher
+Clear,4,3,3;8;11;19,3,Rule-based hybrid,12.0,13.5,-1.5,GA higher
+Clear,4,4,4;6;8;10,2,Rule-based hybrid,6.0,4.5,1.5,GA lower
+Clear,4,5,7;8;14;18,3,Rule-based hybrid,6.0,6.0,0.0,Equal
+Clear,5,1,1;2;7;9;21,3,Rule-based hybrid,15.0,19.5,-4.5,GA higher
+Clear,5,2,1;3;14;17;23,3,Rule-based hybrid,15.0,16.5,-1.5,GA higher
+Clear,5,3,2;3;7;8;12,2,Rule-based hybrid,15.0,19.5,-4.5,GA higher
+Clear,5,4,2;9;12;17;20,3,Rule-based hybrid,10.5,10.5,0.0,Equal
+Clear,5,5,6;11;18;19;22,3,Rule-based hybrid,9.0,7.5,1.5,GA lower
+Clear,6,1,1;2;7;8;10;12,2,Rule-based hybrid,16.5,21.0,-4.5,GA higher
+Clear,6,2,1;7;10;17;20;22,3,Rule-based hybrid,12.0,13.5,-1.5,GA higher
+Clear,6,3,2;5;6;8;20;21,3,Rule-based hybrid,10.5,13.5,-3.0,GA higher
+Clear,6,4,5;7;8;12;14;17,3,Rule-based hybrid,7.5,7.5,0.0,Equal
+Clear,6,5,5;11;14;19;20;21,3,Rule-based hybrid,6.0,4.5,1.5,GA lower
+Clear,7,1,1;2;3;4;15;16;23,3,Rule-based hybrid,22.5,24.0,-1.5,GA higher
+Clear,7,2,2;5;12;13;19;20;21,3,Rule-based hybrid,10.5,10.5,0.0,Equal
+Clear,7,3,4;7;8;17;19;22;23,3,Rule-based hybrid,10.5,10.5,0.0,Equal
+Clear,7,4,6;10;12;14;15;18;23,3,Rule-based hybrid,6.0,6.0,0.0,Equal
+Clear,7,5,7;11;12;13;18;22;23,3,Rule-based hybrid,6.0,9.0,-3.0,GA higher
+Clear,8,1,0;3;5;8;14;16;19;23,3,Rule-based hybrid,21.0,24.0,-3.0,GA higher
+Clear,8,2,0;3;8;12;14;16;17;19,3,Rule-based hybrid,22.5,24.0,-1.5,GA higher
+Clear,8,3,0;5;10;15;16;17;19;20,3,Rule-based hybrid,18.0,15.0,3.0,GA lower
+Clear,8,4,3;8;9;10;13;17;20;21,3,Rule-based hybrid,13.5,13.5,0.0,Equal
+Clear,8,5,4;6;9;11;16;19;20;23,3,Rule-based hybrid,12.0,12.0,0.0,Equal
+Clear,9,1,0;1;2;7;10;18;20;21;22,3,Rule-based hybrid,24.0,24.0,0.0,Equal
+Clear,9,2,0;2;3;7;10;16;17;21;22,3,Rule-based hybrid,27.0,28.5,-1.5,GA higher
+Clear,9,3,1;2;3;7;9;11;15;17;20,3,Rule-based hybrid,25.5,31.5,-6.0,GA higher
+Clear,9,4,2;4;5;8;13;15;17;21;22,3,Rule-based hybrid,13.5,15.0,-1.5,GA higher
+Clear,9,5,6;9;11;12;14;16;17;22;23,3,Rule-based hybrid,10.5,13.5,-3.0,GA higher
+Clear,10,1,0;1;2;3;7;14;16;17;21;23,3,Rule-based hybrid,31.5,34.5,-3.0,GA higher
+Clear,10,2,1;3;10;12;15;19;20;21;22;23,3,Rule-based hybrid,16.5,19.5,-3.0,GA higher
+Clear,10,3,3;4;5;6;8;13;14;17;20;23,3,Rule-based hybrid,15.0,16.5,-1.5,GA higher
+Clear,10,4,3;6;7;11;13;15;16;18;20;22,3,Rule-based hybrid,16.5,19.5,-3.0,GA higher
+Clear,10,5,4;6;7;8;12;15;16;17;20;22,3,Rule-based hybrid,12.0,13.5,-1.5,GA higher
+Clear,11,1,0;1;4;5;6;12;13;15;19;20;22,3,Rule-based hybrid,19.5,19.5,0.0,Equal
+Clear,11,2,0;1;5;8;10;15;16;17;19;21;23,3,Rule-based hybrid,25.5,25.5,0.0,Equal
+Clear,11,3,0;4;6;9;13;14;15;16;17;20;22,3,Rule-based hybrid,16.5,18.0,-1.5,GA higher
+Clear,11,4,1;2;3;8;10;13;16;17;18;19;22,3,Rule-based hybrid,33.0,31.5,1.5,GA lower
+Clear,11,5,2;3;5;7;9;12;14;18;19;21;23,3,Rule-based hybrid,22.5,22.5,0.0,Equal
+Clear,12,1,0;1;2;3;5;6;8;14;17;18;19;20,3,Rule-based hybrid,37.5,39.0,-1.5,GA higher
+Clear,12,2,0;5;7;8;9;10;11;13;14;16;17;21,3,Rule-based hybrid,21.0,21.0,0.0,Equal
+Clear,12,3,1;4;7;8;9;10;12;14;16;19;22;23,3,Rule-based hybrid,19.5,19.5,0.0,Equal
+Clear,12,4,1;6;8;10;15;16;17;19;20;21;22;23,3,Rule-based hybrid,19.5,18.0,1.5,GA lower
+Clear,12,5,3;4;8;9;16;17;18;19;20;21;22;23,3,Rule-based hybrid,22.5,22.5,0.0,Equal
+Clear,13,1,0;1;2;4;5;11;13;16;17;18;21;22;23,3,Rule-based hybrid,31.5,30.0,1.5,GA lower
+Clear,13,2,0;1;4;5;6;7;9;11;14;15;18;22;23,3,Rule-based hybrid,24.0,25.5,-1.5,GA higher
+Clear,13,3,0;1;4;5;8;10;12;13;14;18;21;22;23,3,Rule-based hybrid,21.0,21.0,0.0,Equal
+Clear,13,4,0;3;5;6;7;8;10;13;18;19;21;22;23,3,Rule-based hybrid,25.5,28.5,-3.0,GA higher
+Clear,13,5,1;2;3;4;6;7;11;12;13;14;17;19;22,3,Rule-based hybrid,30.0,33.0,-3.0,GA higher
+Clear,14,1,0;1;3;4;6;9;10;11;13;15;16;19;20;22,3,Rule-based hybrid,31.5,33.0,-1.5,GA higher
+Clear,14,2,0;2;3;4;8;9;10;11;12;13;14;16;17;20,3,Rule-based hybrid,31.5,33.0,-1.5,GA higher
+Clear,14,3,0;2;5;6;9;10;11;13;14;16;17;20;22;23,3,Rule-based hybrid,25.5,25.5,0.0,Equal
+Clear,14,4,0;3;4;5;6;9;11;12;15;17;18;19;21;23,3,Rule-based hybrid,28.5,30.0,-1.5,GA higher
+Clear,14,5,3;4;6;9;10;12;13;16;17;18;19;20;22;23,3,Rule-based hybrid,24.0,25.5,-1.5,GA higher
+Clear,15,1,0;1;2;3;4;6;7;9;10;13;15;18;19;20;21,3,Rule-based hybrid,37.5,40.5,-3.0,GA higher
+Clear,15,2,0;1;3;4;6;7;12;13;14;15;18;20;21;22;23,3,Rule-based hybrid,25.5,28.5,-3.0,GA higher
+Clear,15,3,1;2;3;5;7;8;10;11;12;14;16;17;18;20;22,3,Rule-based hybrid,34.5,37.5,-3.0,GA higher
+Clear,15,4,1;4;5;6;8;9;10;14;15;16;19;20;21;22;23,3,Rule-based hybrid,21.0,21.0,0.0,Equal
+Clear,15,5,3;4;5;7;10;11;12;13;14;16;17;18;19;21;23,3,Rule-based hybrid,25.5,28.5,-3.0,GA higher
+Night,1,1,0,1,Rule-based hybrid,110.1,110.1,0.0,Equal
+Night,1,2,3,1,Rule-based hybrid,110.1,110.1,0.0,Equal
+Night,1,3,8,1,Rule-based hybrid,110.1,110.1,0.0,Equal
+Night,1,4,20,1,Rule-based hybrid,110.1,110.1,0.0,Equal
+Night,1,5,23,1,Rule-based hybrid,110.1,110.1,0.0,Equal
+Night,2,1,2;17,2,Rule-based hybrid,220.2,192.3,27.899999999999977,GA lower
+Night,2,2,3;23,2,Rule-based hybrid,220.2,196.8,23.399999999999977,GA lower
+Night,2,3,4;7,1,Rule-based hybrid,114.6,114.6,0.0,Equal
+Night,2,4,13;18,2,Rule-based hybrid,220.2,141.0,79.19999999999999,GA lower
+Night,2,5,21;23,1,Rule-based hybrid,114.6,113.1,1.5,GA lower
+Night,3,1,0;1;2,1,Rule-based hybrid,119.1,116.1,3.0,GA lower
+Night,3,2,0;17;19,2,Rule-based hybrid,224.7,201.3,23.399999999999977,GA lower
+Night,3,3,6;7;16,2,Rule-based hybrid,224.7,198.3,26.399999999999977,GA lower
+Night,3,4,6;20;22,2,Rule-based hybrid,224.7,198.3,26.399999999999977,GA lower
+Night,3,5,13;17;22,2,Rule-based hybrid,224.7,145.5,79.19999999999999,GA lower
+Night,4,1,0;5;13;22,3,Rule-based hybrid,334.79999999999995,217.5,117.29999999999995,GA lower
+Night,4,2,2;3;10;12,2,Rule-based hybrid,229.2,192.6,36.599999999999994,GA lower
+Night,4,3,3;8;11;19,3,Rule-based hybrid,334.79999999999995,230.7,104.09999999999997,GA lower
+Night,4,4,4;6;8;10,2,Rule-based hybrid,229.2,163.2,66.0,GA lower
+Night,4,5,7;8;14;18,3,Rule-based hybrid,334.79999999999995,219.0,115.79999999999995,GA lower
+Night,5,1,1;2;7;9;21,3,Rule-based hybrid,339.29999999999995,235.2,104.09999999999997,GA lower
+Night,5,2,1;3;14;17;23,3,Rule-based hybrid,339.29999999999995,249.9,89.39999999999995,GA lower
+Night,5,3,2;3;7;8;12,2,Rule-based hybrid,233.7,200.1,33.599999999999994,GA lower
+Night,5,4,2;9;12;17;20,3,Rule-based hybrid,339.29999999999995,236.7,102.59999999999997,GA lower
+Night,5,5,6;11;18;19;22,3,Rule-based hybrid,339.29999999999995,223.5,115.79999999999995,GA lower
+Night,6,1,1;2;7;8;10;12,2,Rule-based hybrid,238.2,203.1,35.099999999999994,GA lower
+Night,6,2,1;7;10;17;20;22,3,Rule-based hybrid,343.79999999999995,241.2,102.59999999999997,GA lower
+Night,6,3,2;5;6;8;20;21,3,Rule-based hybrid,343.79999999999995,241.2,102.59999999999997,GA lower
+Night,6,4,5;7;8;12;14;17,3,Rule-based hybrid,343.79999999999995,229.5,114.29999999999995,GA lower
+Night,6,5,5;11;14;19;20;21,3,Rule-based hybrid,343.79999999999995,229.5,114.29999999999995,GA lower
+Night,7,1,1;2;3;4;15;16;23,3,Rule-based hybrid,348.29999999999995,250.2,98.09999999999997,GA lower
+Night,7,2,2;5;12;13;19;20;21,3,Rule-based hybrid,348.29999999999995,234.0,114.29999999999995,GA lower
+Night,7,3,4;7;8;17;19;22;23,3,Rule-based hybrid,348.29999999999995,237.0,111.29999999999995,GA lower
+Night,7,4,6;10;12;14;15;18;23,3,Rule-based hybrid,348.29999999999995,234.0,114.29999999999995,GA lower
+Night,7,5,7;11;12;13;18;22;23,3,Rule-based hybrid,348.29999999999995,235.5,112.79999999999995,GA lower
+Night,8,1,0;3;5;8;14;16;19;23,3,Rule-based hybrid,352.79999999999995,256.2,96.59999999999997,GA lower
+Night,8,2,0;3;8;12;14;16;17;19,3,Rule-based hybrid,352.79999999999995,243.0,109.79999999999995,GA lower
+Night,8,3,0;5;10;15;16;17;19;20,3,Rule-based hybrid,352.79999999999995,254.7,98.09999999999997,GA lower
+Night,8,4,3;8;9;10;13;17;20;21,3,Rule-based hybrid,352.79999999999995,251.7,101.09999999999997,GA lower
+Night,8,5,4;6;9;11;16;19;20;23,3,Rule-based hybrid,352.79999999999995,243.0,109.79999999999995,GA lower
+Night,9,1,0;1;2;7;10;18;20;21;22,3,Rule-based hybrid,357.29999999999995,256.2,101.09999999999997,GA lower
+Night,9,2,0;2;3;7;10;16;17;21;22,3,Rule-based hybrid,357.29999999999995,257.7,99.59999999999997,GA lower
+Night,9,3,1;2;3;7;9;11;15;17;20,3,Rule-based hybrid,357.29999999999995,259.2,98.09999999999997,GA lower
+Night,9,4,2;4;5;8;13;15;17;21;22,3,Rule-based hybrid,357.29999999999995,243.0,114.29999999999995,GA lower
+Night,9,5,6;9;11;12;14;16;17;22;23,3,Rule-based hybrid,357.29999999999995,257.7,99.59999999999997,GA lower
+Night,10,1,0;1;2;3;7;14;16;17;21;23,3,Rule-based hybrid,361.8,263.7,98.10000000000002,GA lower
+Night,10,2,1;3;10;12;15;19;20;21;22;23,3,Rule-based hybrid,361.8,278.4,83.40000000000003,GA lower
+Night,10,3,3;4;5;6;8;13;14;17;20;23,3,Rule-based hybrid,361.8,276.9,84.90000000000003,GA lower
+Night,10,4,3;6;7;11;13;15;16;18;20;22,3,Rule-based hybrid,361.8,278.4,83.40000000000003,GA lower
+Night,10,5,4;6;7;8;12;15;16;17;20;22,3,Rule-based hybrid,361.8,253.5,108.30000000000001,GA lower
+Night,11,1,0;1;4;5;6;12;13;15;19;20;22,3,Rule-based hybrid,366.3,269.7,96.60000000000002,GA lower
+Night,11,2,0;1;5;8;10;15;16;17;19;21;23,3,Rule-based hybrid,366.3,269.7,96.60000000000002,GA lower
+Night,11,3,0;4;6;9;13;14;15;16;17;20;22,3,Rule-based hybrid,366.3,268.2,98.10000000000002,GA lower
+Night,11,4,1;2;3;8;10;13;16;17;18;19;22,3,Rule-based hybrid,366.3,279.9,86.40000000000003,GA lower
+Night,11,5,2;3;5;7;9;12;14;18;19;21;23,3,Rule-based hybrid,366.3,281.4,84.90000000000003,GA lower
+Night,12,1,0;1;2;3;5;6;8;14;17;18;19;20,3,Rule-based hybrid,370.8,285.9,84.90000000000003,GA lower
+Night,12,2,0;5;7;8;9;10;11;13;14;16;17;21,3,Rule-based hybrid,370.8,272.7,98.10000000000002,GA lower
+Night,12,3,1;4;7;8;9;10;12;14;16;19;22;23,3,Rule-based hybrid,370.8,275.7,95.10000000000002,GA lower
+Night,12,4,1;6;8;10;15;16;17;19;20;21;22;23,3,Rule-based hybrid,370.8,274.2,96.60000000000002,GA lower
+Night,12,5,3;4;8;9;16;17;18;19;20;21;22;23,3,Rule-based hybrid,370.8,288.9,81.90000000000003,GA lower
+Night,13,1,0;1;2;4;5;11;13;16;17;18;21;22;23,3,Rule-based hybrid,375.3,277.2,98.10000000000002,GA lower
+Night,13,2,0;1;4;5;6;7;9;11;14;15;18;22;23,3,Rule-based hybrid,375.3,278.7,96.60000000000002,GA lower
+Night,13,3,0;1;4;5;8;10;12;13;14;18;21;22;23,3,Rule-based hybrid,375.3,277.2,98.10000000000002,GA lower
+Night,13,4,0;3;5;6;7;8;10;13;18;19;21;22;23,3,Rule-based hybrid,375.3,291.9,83.40000000000003,GA lower
+Night,13,5,1;2;3;4;6;7;11;12;13;14;17;19;22,3,Rule-based hybrid,375.3,291.9,83.40000000000003,GA lower
+Night,14,1,0;1;3;4;6;9;10;11;13;15;16;19;20;22,3,Rule-based hybrid,379.8,299.4,80.40000000000003,GA lower
+Night,14,2,0;2;3;4;8;9;10;11;12;13;14;16;17;20,3,Rule-based hybrid,379.8,299.4,80.40000000000003,GA lower
+Night,14,3,0;2;5;6;9;10;11;13;14;16;17;20;22;23,3,Rule-based hybrid,379.8,281.7,98.10000000000002,GA lower
+Night,14,4,0;3;4;5;6;9;11;12;15;17;18;19;21;23,3,Rule-based hybrid,379.8,299.4,80.40000000000003,GA lower
+Night,14,5,3;4;6;9;10;12;13;16;17;18;19;20;22;23,3,Rule-based hybrid,379.8,297.9,81.90000000000003,GA lower
+Night,15,1,0;1;2;3;4;6;7;9;10;13;15;18;19;20;21,3,Rule-based hybrid,384.3,302.4,81.90000000000003,GA lower
+Night,15,2,0;1;3;4;6;7;12;13;14;15;18;20;21;22;23,3,Rule-based hybrid,384.3,303.9,80.40000000000003,GA lower
+Night,15,3,1;2;3;5;7;8;10;11;12;14;16;17;18;20;22,3,Rule-based hybrid,384.3,302.4,81.90000000000003,GA lower
+Night,15,4,1;4;5;6;8;9;10;14;15;16;19;20;21;22;23,3,Rule-based hybrid,384.3,289.2,95.10000000000002,GA lower
+Night,15,5,3;4;5;7;10;11;12;13;14;16;17;18;19;21;23,3,Rule-based hybrid,384.3,303.9,80.40000000000003,GA lower
+Overcast,1,1,0,1,Rule-based hybrid,72.0,72.0,0.0,Equal
+Overcast,1,2,3,1,Rule-based hybrid,72.0,72.0,0.0,Equal
+Overcast,1,3,8,1,Rule-based hybrid,44.1,44.1,0.0,Equal
+Overcast,1,4,20,1,Rule-based hybrid,0.0,0.0,0.0,Equal
+Overcast,1,5,23,1,Rule-based hybrid,0.0,6.0,-6.0,GA higher
+Overcast,2,1,2;17,2,Rule-based hybrid,76.5,76.5,0.0,Equal
+Overcast,2,2,3;23,2,Rule-based hybrid,72.0,72.0,0.0,Equal
+Overcast,2,3,4;7,1,Rule-based hybrid,64.8,61.8,3.0,GA lower
+Overcast,2,4,13;18,2,Rule-based hybrid,9.0,9.0,0.0,Equal
+Overcast,2,5,21;23,1,Rule-based hybrid,0.0,0.0,0.0,Equal
+Overcast,3,1,0;1;2,1,Rule-based hybrid,84.0,84.0,0.0,Equal
+Overcast,3,2,0;17;19,2,Rule-based hybrid,81.0,81.0,0.0,Equal
+Overcast,3,3,6;7;16,2,Rule-based hybrid,69.3,76.5,-7.200000000000003,GA higher
+Overcast,3,4,6;20;22,2,Rule-based hybrid,58.8,69.0,-10.200000000000003,GA higher
+Overcast,3,5,13;17;22,2,Rule-based hybrid,9.0,9.0,0.0,Equal
+Overcast,4,1,0;5;13;22,3,Rule-based hybrid,82.5,79.5,3.0,GA lower
+Overcast,4,2,2;3;10;12,2,Rule-based hybrid,126.6,88.5,38.099999999999994,GA lower
+Overcast,4,3,3;8;11;19,3,Rule-based hybrid,125.1,88.5,36.599999999999994,GA lower
+Overcast,4,4,4;6;8;10,2,Rule-based hybrid,113.4,84.0,29.400000000000006,GA lower
+Overcast,4,5,7;8;14;18,3,Rule-based hybrid,111.9,84.0,27.900000000000006,GA lower
+Overcast,5,1,1;2;7;9;21,3,Rule-based hybrid,128.1,87.0,41.099999999999994,GA lower
+Overcast,5,2,1;3;14;17;23,3,Rule-based hybrid,87.0,87.0,0.0,Equal
+Overcast,5,3,2;3;7;8;12,2,Rule-based hybrid,132.6,91.5,41.099999999999994,GA lower
+Overcast,5,4,2;9;12;17;20,3,Rule-based hybrid,125.1,87.0,38.099999999999994,GA lower
+Overcast,5,5,6;11;18;19;22,3,Rule-based hybrid,111.9,85.5,26.400000000000006,GA lower
+Overcast,6,1,1;2;7;8;10;12,2,Rule-based hybrid,137.1,97.5,39.599999999999994,GA lower
+Overcast,6,2,1;7;10;17;20;22,3,Rule-based hybrid,126.6,85.5,41.099999999999994,GA lower
+Overcast,6,3,2;5;6;8;20;21,3,Rule-based hybrid,128.1,84.0,44.099999999999994,GA lower
+Overcast,6,4,5;7;8;12;14;17,3,Rule-based hybrid,122.4,93.0,29.400000000000006,GA lower
+Overcast,6,5,5;11;14;19;20;21,3,Rule-based hybrid,111.9,85.5,26.400000000000006,GA lower
+Overcast,7,1,1;2;3;4;15;16;23,3,Rule-based hybrid,99.0,96.0,3.0,GA lower
+Overcast,7,2,2;5;12;13;19;20;21,3,Rule-based hybrid,91.5,88.5,3.0,GA lower
+Overcast,7,3,4;7;8;17;19;22;23,3,Rule-based hybrid,117.9,88.5,29.400000000000006,GA lower
+Overcast,7,4,6;10;12;14;15;18;23,3,Rule-based hybrid,120.9,93.0,27.900000000000006,GA lower
+Overcast,7,5,7;11;12;13;18;22;23,3,Rule-based hybrid,116.4,91.5,24.900000000000006,GA lower
+Overcast,8,1,0;3;5;8;14;16;19;23,3,Rule-based hybrid,141.6,100.5,41.099999999999994,GA lower
+Overcast,8,2,0;3;8;12;14;16;17;19,3,Rule-based hybrid,144.6,106.5,38.099999999999994,GA lower
+Overcast,8,3,0;5;10;15;16;17;19;20,3,Rule-based hybrid,140.1,99.0,41.099999999999994,GA lower
+Overcast,8,4,3;8;9;10;13;17;20;21,3,Rule-based hybrid,134.1,99.0,35.099999999999994,GA lower
+Overcast,8,5,4;6;9;11;16;19;20;23,3,Rule-based hybrid,122.4,94.5,27.900000000000006,GA lower
+Overcast,9,1,0;1;2;7;10;18;20;21;22,3,Rule-based hybrid,138.6,99.0,39.599999999999994,GA lower
+Overcast,9,2,0;2;3;7;10;16;17;21;22,3,Rule-based hybrid,143.1,103.5,39.599999999999994,GA lower
+Overcast,9,3,1;2;3;7;9;11;15;17;20,3,Rule-based hybrid,147.6,111.0,36.599999999999994,GA lower
+Overcast,9,4,2;4;5;8;13;15;17;21;22,3,Rule-based hybrid,141.6,97.5,44.099999999999994,GA lower
+Overcast,9,5,6;9;11;12;14;16;17;22;23,3,Rule-based hybrid,125.4,100.5,24.900000000000006,GA lower
+Overcast,10,1,0;1;2;3;7;14;16;17;21;23,3,Rule-based hybrid,109.5,108.0,1.5,GA lower
+Overcast,10,2,1;3;10;12;15;19;20;21;22;23,3,Rule-based hybrid,135.6,97.5,38.099999999999994,GA lower
+Overcast,10,3,3;4;5;6;8;13;14;17;20;23,3,Rule-based hybrid,147.6,100.5,47.099999999999994,GA lower
+Overcast,10,4,3;6;7;11;13;15;16;18;20;22,3,Rule-based hybrid,146.1,105.0,41.099999999999994,GA lower
+Overcast,10,5,4;6;7;8;12;15;16;17;20;22,3,Rule-based hybrid,132.89999999999998,100.5,32.39999999999998,GA lower
+Overcast,11,1,0;1;4;5;6;12;13;15;19;20;22,3,Rule-based hybrid,114.0,105.0,9.0,GA lower
+Overcast,11,2,0;1;5;8;10;15;16;17;19;21;23,3,Rule-based hybrid,150.6,111.0,39.599999999999994,GA lower
+Overcast,11,3,0;4;6;9;13;14;15;16;17;20;22,3,Rule-based hybrid,150.6,106.5,44.099999999999994,GA lower
+Overcast,11,4,1;2;3;8;10;13;16;17;18;19;22,3,Rule-based hybrid,155.1,118.5,36.599999999999994,GA lower
+Overcast,11,5,2;3;5;7;9;12;14;18;19;21;23,3,Rule-based hybrid,152.1,109.5,42.599999999999994,GA lower
+Overcast,12,1,0;1;2;3;5;6;8;14;17;18;19;20,3,Rule-based hybrid,164.1,120.0,44.099999999999994,GA lower
+Overcast,12,2,0;5;7;8;9;10;11;13;14;16;17;21,3,Rule-based hybrid,159.6,123.0,36.599999999999994,GA lower
+Overcast,12,3,1;4;7;8;9;10;12;14;16;19;22;23,3,Rule-based hybrid,155.1,115.5,39.599999999999994,GA lower
+Overcast,12,4,1;6;8;10;15;16;17;19;20;21;22;23,3,Rule-based hybrid,144.6,105.0,39.599999999999994,GA lower
+Overcast,12,5,3;4;8;9;16;17;18;19;20;21;22;23,3,Rule-based hybrid,144.6,105.0,39.599999999999994,GA lower
+Overcast,13,1,0;1;2;4;5;11;13;16;17;18;21;22;23,3,Rule-based hybrid,158.1,115.5,42.599999999999994,GA lower
+Overcast,13,2,0;1;4;5;6;7;9;11;14;15;18;22;23,3,Rule-based hybrid,164.1,118.5,45.599999999999994,GA lower
+Overcast,13,3,0;1;4;5;8;10;12;13;14;18;21;22;23,3,Rule-based hybrid,156.6,114.0,42.599999999999994,GA lower
+Overcast,13,4,0;3;5;6;7;8;10;13;18;19;21;22;23,3,Rule-based hybrid,158.1,114.0,44.099999999999994,GA lower
+Overcast,13,5,1;2;3;4;6;7;11;12;13;14;17;19;22,3,Rule-based hybrid,168.6,124.5,44.099999999999994,GA lower
+Overcast,14,1,0;1;3;4;6;9;10;11;13;15;16;19;20;22,3,Rule-based hybrid,167.1,127.5,39.599999999999994,GA lower
+Overcast,14,2,0;2;3;4;8;9;10;11;12;13;14;16;17;20,3,Rule-based hybrid,170.1,135.0,35.099999999999994,GA lower
+Overcast,14,3,0;2;5;6;9;10;11;13;14;16;17;20;22;23,3,Rule-based hybrid,161.1,121.5,39.599999999999994,GA lower
+Overcast,14,4,0;3;4;5;6;9;11;12;15;17;18;19;21;23,3,Rule-based hybrid,167.1,123.0,44.099999999999994,GA lower
+Overcast,14,5,3;4;6;9;10;12;13;16;17;18;19;20;22;23,3,Rule-based hybrid,159.6,117.0,42.599999999999994,GA lower
+Overcast,15,1,0;1;2;3;4;6;7;9;10;13;15;18;19;20;21,3,Rule-based hybrid,174.6,130.5,44.099999999999994,GA lower
+Overcast,15,2,0;1;3;4;6;7;12;13;14;15;18;20;21;22;23,3,Rule-based hybrid,124.5,117.0,7.5,GA lower
+Overcast,15,3,1;2;3;5;7;8;10;11;12;14;16;17;18;20;22,3,Rule-based hybrid,171.6,133.5,38.099999999999994,GA lower
+Overcast,15,4,1;4;5;6;8;9;10;14;15;16;19;20;21;22;23,3,Rule-based hybrid,161.1,117.0,44.099999999999994,GA lower
+Overcast,15,5,3;4;5;7;10;11;12;13;14;16;17;18;19;21;23,3,Rule-based hybrid,170.1,127.5,42.599999999999994,GA lower

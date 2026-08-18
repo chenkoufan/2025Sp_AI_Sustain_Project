@@ -1,0 +1,91 @@
+weather,occupancy_count,baseline,optimized_reduction_pct
+Clear,1,Zonal PIR ceiling-only,91.258741
+Clear,2,Zonal PIR ceiling-only,87.012987
+Clear,3,Zonal PIR ceiling-only,78.693182
+Clear,4,Zonal PIR ceiling-only,86.531987
+Clear,5,Zonal PIR ceiling-only,82.038123
+Clear,6,Zonal PIR ceiling-only,83.164983
+Clear,7,Zonal PIR ceiling-only,79.338843
+Clear,8,Zonal PIR ceiling-only,79.048295
+Clear,9,Zonal PIR ceiling-only,74.173554
+Clear,10,Zonal PIR ceiling-only,74.706745
+Clear,11,Zonal PIR ceiling-only,73.930481
+Clear,12,Zonal PIR ceiling-only,74.747475
+Clear,13,Zonal PIR ceiling-only,72.488038
+Clear,14,Zonal PIR ceiling-only,71.445221
+Clear,15,Zonal PIR ceiling-only,67.171717
+Overcast,1,Zonal PIR ceiling-only,47.483766
+Overcast,2,Zonal PIR ceiling-only,58.465909
+Overcast,3,Zonal PIR ceiling-only,55.991736
+Overcast,4,Zonal PIR ceiling-only,64.660340
+Overcast,5,Zonal PIR ceiling-only,64.320626
+Overcast,6,Zonal PIR ceiling-only,64.843750
+Overcast,7,Zonal PIR ceiling-only,65.684068
+Overcast,8,Zonal PIR ceiling-only,65.909091
+Overcast,9,Zonal PIR ceiling-only,63.785047
+Overcast,10,Zonal PIR ceiling-only,64.120370
+Overcast,11,Zonal PIR ceiling-only,62.086777
+Overcast,12,Zonal PIR ceiling-only,61.886565
+Overcast,13,Zonal PIR ceiling-only,60.679807
+Overcast,14,Zonal PIR ceiling-only,58.532695
+Overcast,15,Zonal PIR ceiling-only,56.526272
+Night,1,Zonal PIR ceiling-only,35.839161
+Night,2,Zonal PIR ceiling-only,40.198864
+Night,3,Zonal PIR ceiling-only,41.339066
+Night,4,Zonal PIR ceiling-only,52.453988
+Night,5,Zonal PIR ceiling-only,49.550740
+Night,6,Zonal PIR ceiling-only,50.169801
+Night,7,Zonal PIR ceiling-only,52.772489
+Night,8,Zonal PIR ceiling-only,51.491841
+Night,9,Zonal PIR ceiling-only,48.395722
+Night,10,Zonal PIR ceiling-only,46.973622
+Night,11,Zonal PIR ceiling-only,46.818182
+Night,12,Zonal PIR ceiling-only,45.148375
+Night,13,Zonal PIR ceiling-only,44.953380
+Night,14,Zonal PIR ceiling-only,42.587413
+Night,15,Zonal PIR ceiling-only,41.655012
+Clear,1,Rule-based hybrid,-11.111111
+Clear,2,Rule-based hybrid,-14.285714
+Clear,3,Rule-based hybrid,-11.111111
+Clear,4,Rule-based hybrid,-6.666667
+Clear,5,Rule-based hybrid,-13.953488
+Clear,6,Rule-based hybrid,-14.285714
+Clear,7,Rule-based hybrid,-8.108108
+Clear,8,Rule-based hybrid,-1.724138
+Clear,9,Rule-based hybrid,-11.940299
+Clear,10,Rule-based hybrid,-13.114754
+Clear,11,Rule-based hybrid,0.000000
+Clear,12,Rule-based hybrid,0.000000
+Clear,13,Rule-based hybrid,-4.545455
+Clear,14,Rule-based hybrid,-4.255319
+Clear,15,Rule-based hybrid,-8.333333
+Overcast,1,Rule-based hybrid,-3.189793
+Overcast,2,Rule-based hybrid,1.349528
+Overcast,3,Rule-based hybrid,-5.759682
+Overcast,4,Rule-based hybrid,24.128686
+Overcast,5,Rule-based hybrid,25.089790
+Overcast,6,Rule-based hybrid,28.845232
+Overcast,7,Rule-based hybrid,16.162727
+Overcast,8,Rule-based hybrid,26.845343
+Overcast,9,Rule-based hybrid,26.540284
+Overcast,10,Rule-based hybrid,23.849933
+Overcast,11,Rule-based hybrid,23.795681
+Overcast,12,Rule-based hybrid,25.976562
+Overcast,13,Rule-based hybrid,27.188082
+Overcast,14,Rule-based hybrid,24.363636
+Overcast,15,Rule-based hybrid,21.997755
+Night,1,Rule-based hybrid,0.000000
+Night,2,Rule-based hybrid,14.834794
+Night,3,Rule-based hybrid,15.561450
+Night,4,Rule-based hybrid,30.065628
+Night,5,Rule-based hybrid,28.003017
+Night,6,Rule-based hybrid,29.062849
+Night,7,Rule-based hybrid,31.627907
+Night,8,Rule-based hybrid,29.217687
+Night,9,Rule-based hybrid,28.698573
+Night,10,Rule-based hybrid,25.323383
+Night,11,Rule-based hybrid,25.257985
+Night,12,Rule-based hybrid,24.627832
+Night,13,Rule-based hybrid,24.492406
+Night,14,Rule-based hybrid,22.180095
+Night,15,Rule-based hybrid,21.842311
